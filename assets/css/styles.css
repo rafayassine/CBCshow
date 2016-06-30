@@ -1,0 +1,457 @@
+@media (max-width: 992){
+	.link-all{
+		margin-left: 30px !important;
+	}
+}
+body{
+	font-family: 'Playfair Display', serif;
+}
+
+.icon{
+	width: 25px;
+}
+
+.link-all{
+	margin-top: 0px;
+	text-decoration: none;
+	font-size: 1.4em;
+}
+
+a {
+	text-decoration: none;
+	color : #2E2E2E;
+}
+/*--			--*\
+	~~ Navbar ~~
+\*--			--*/
+
+.navbar{
+	margin-bottom: -10px !important;
+}
+@media (max-width: 371px){
+	#header-btn-about{
+		margin: 0px !important;
+	}
+	#header-btn-contact{
+		margin: 0px !important;
+	}
+}
+
+@media (max-width: 874px){
+    .navbar-header{
+        float: none;
+    }
+    .navbar-left,.navbar-right{
+        float: none !important;
+    }
+    .navbar-toggle{
+        display: block;
+    }
+    .navbar-collapse{
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top{
+		top: 0;
+		border-width: 0 0 1px;
+	}
+    .navbar-collapse.collapse{
+        display: none!important;
+    }
+    .navbar-nav{
+        float: none!important;
+		margin-top: 7.5px;
+		}
+		.navbar-nav>li{
+        float: none;
+    }
+    .navbar-nav>li>a{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+  		display:block !important;
+		}
+
+		.nav-hide {
+			display: none !important;
+		}
+	.hidden{
+		display: block !important;
+	}
+
+	li a{
+		text-align: center;
+	}
+
+	.media-sub{
+		margin-top: 15px;
+		margin-bottom: 15px;
+		margin-right: 10px;
+	}
+
+}
+
+.navbar-default, .navbar-collapse{
+	background-image: none;
+	background-color: #FFF;
+	border:none;
+	box-shadow: none;
+}
+
+#logo{
+	width: 170px;
+	padding: 0px 0px 15px 0px;
+	margin: 15px 0px -17px 30px;
+}
+.lang-icon{
+	width: 2rem;
+	height: auto;
+	margin-top:15px;
+}
+
+#button-collapse{
+	text-decoration: none;
+	border-radius: 0px;
+	border: none;
+	padding: 40px;
+	padding-top: 0px
+	margin: 0;
+}
+.navbar-nav li a{
+ 	line-height: 50px;
+}
+
+ a.link-icon{
+	padding: 0px 7px !important;
+
+ }
+
+#name-logo{
+	padding: 50px 0px;
+	color: #D03832;
+	font-size: 3rem;
+
+}
+
+#scnd-navbar{
+	margin-right: -25px;
+}
+
+.fa-bars{
+	font-size:1.7rem;
+	width: 100%
+	padding:0;
+}
+
+.fa-bars:hover{
+	transition: font-size 0.3s;
+	font-size: 2rem;
+}
+
+.burger-menu{
+	margin-top: 16px;
+	padding: 0;
+}
+
+#scnd-navbar-row{
+	margin: -20px 0px 0px 0px !important;
+}
+
+span .lang-icon{
+	margin-bottom: 15px;
+	margin-left: 15px;
+}
+
+.menu-lang{
+	display: none;
+}
+li a:hover, li a:active {
+	background-image: none !important;
+	background-color: none !important;
+	color : #2E2E2E;
+	text-decoration: none;
+	transition-property: letter-spacing;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in;
+	letter-spacing: 1.5px;
+}
+
+a.sub-deco-none{
+	background: none !important;
+}
+
+a.burger:hover{
+	letter-spacing: 0px !important;
+}
+/*--						 					--*\
+	~~ Page-header Section ~~
+\*--						 					--*/
+
+.page-header{
+	background: url("http://cbc-assets.s3.amazonaws.com/assets/presentation/china-and-french.jpg") center;
+	background-size: cover;
+	height: 500px;
+	color: #2E2E2E;
+	padding-top: 150px;
+}
+
+.header-btn{
+	border-radius: 0;
+	background-image: none;
+	box-shadow: none;
+	border: none;
+	height: 40px;
+	width: 150px;
+	padding-top: 10px;
+	min-width: 150px;
+}
+
+.header{
+	color: #FFF;
+	text-shadow: 1.5px 1.5px #191919;
+}
+
+#grp-header-btn{
+	padding-top: 50px;
+	display: flex;
+	align-items: center;
+}
+
+#header-btn-about{
+	background-color: #FFF;
+	white-space: normal;
+	color: #2E2E2E;
+	margin-right: 10px;
+	font-size: 15px;
+}
+
+#header-btn-contact{
+	margin-left: 10px;
+	background-color: #D03832;
+	color: #FFF;
+	letter-spacing: 0.5px;
+	font-size: 15px;
+}
+
+/*--									--*\
+		~~ About Section ~~
+\*--									--*/
+
+@media (max-width: 992px){
+  	#img-ceo{
+		padding-top: 30px;
+	}
+}
+
+.about-section{
+	padding: 40px 0px 50px 0px;
+}
+
+.section-header{
+	font-family: 'Cormorant Garamond', serif !important;
+	padding-bottom: 50px;
+}
+
+.about-text{
+	text-align: justify;
+	font-size: 17px;
+}
+
+#img-ceo{
+	width: auto;
+	width: 350px;
+	height:auto;
+}
+
+.icon-about{
+	width: 27px;
+}
+
+/*--						 					--*\
+	~~ Testimonial Section ~~
+\*--						 					--*/
+
+@media (max-width: 992px){
+	.div-vip-grp{
+		text-align: center;
+		margin-left: 0 !important;
+	}
+}
+
+@media (max-width: 768px){
+
+}
+.testimonial-section{
+		background-color: #2E2E2E;
+		color: #FFF;
+		padding: 40px 0px 50px 0px;
+}
+
+.testimonial-header{
+	margin-top: 50px;
+	padding: 0px;
+}
+
+.quote-img{
+	width: 70px;
+	height: auto;
+	padding-right: 0px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.quote-text-div{
+	margin: 30px auto;
+}
+
+.quote-text-1, .quote-text-2, .quote-text-3{
+	font-size: 28px;
+}
+
+.img-vip{
+	width: 90px;
+	padding:0 ;
+	margin: 0;
+}
+
+.text-vip{
+	padding: 0;
+	margin: 0;
+	padding-top: 18px;
+	margin-left: 10px;
+}
+
+.div-vip-grp{
+	margin-top: 60px;
+	margin-left: 110px;
+}
+
+.testimonial-section .link-all{
+	color: #FFF;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.testimonial-section .link-all a{
+	color: #FFF;
+}
+
+.container-vip-grp{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.not-display{
+	display: none;
+}
+
+/*--					 --*\
+	~~ Members Section ~~
+\*--					 --*/
+
+.members-section{
+	padding: 40px 0px 50px 0px;
+}
+.member-logo{
+	width: 170;
+	height: auto;
+}
+
+.members-section .link-all a{
+	color: #2E2E2E;
+}
+
+.glyphicon-triangle-right{
+	vertical-align: middle;
+	color: #D03832;
+}
+
+.vip-div{
+		padding-bottom: 40px;
+	}
+/*--					 --*\
+	~~ Contact Section ~~
+\*--					 --*/
+
+.contact-section{
+	background-color: #2E2E2E;
+	color: #FFF;
+	padding: 40px 0px 50px 0px;
+}
+
+.main-form{
+	width: 450px;
+}
+
+.form-control{
+	border-radius: 0;
+	border:none ;
+	box-shadow: none;
+	position: relative;
+}
+
+.submit-btn{
+	margin-top: 40px;
+	padding: 10px;
+	background-image: none;
+	border-radius: 0;
+	border:none ;
+	box-shadow: none;
+	background-color: #D03832;
+	color: #FFF;
+	width: 150px;
+	height: auto;
+	letter-spacing: 1.5px;
+	transition: background-color 1s;
+}
+
+/*--					 --*\
+	~~ Footer Section ~~
+\*--					 --*/
+
+@media (max-width: 768px){
+  	.footer-nav{
+		display: none;
+	}
+}
+@media (max-width: 560px){
+  	.footer-about{
+		display: none;
+	}
+}
+
+footer{
+	padding: 40px 0px 40px 0px;
+	display: flex;
+	justify-content: center;
+}
+
+.footer-div{
+	width:250px;
+	margin:0 auto;
+	text-align: left;
+	line-height: 20px;
+}
+
+.footer-nav{
+	width: 100px;
+}
+
+.footer-header{
+	font-family: 'Cormorant Garamond', serif !important;
+	font-size: 23px;
+}
+
+.icon-footer{
+	margin: auto 8;
+	width: 27px
+}
+
+.icon-last{
+	margin-right: 0px
+}
+
+.icon-first{
+	margin-left: 0px;
+}
